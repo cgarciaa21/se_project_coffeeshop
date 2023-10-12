@@ -234,7 +234,7 @@ max-width: 385px;
 height: 60px;
 border: 1px solid #838383;
 margin-bottom: 32px; 
-padding: 0;
+padding: 0px;
 border-radius: 4px   
 }
 
@@ -275,11 +275,20 @@ transition-duration: 0.4s;
 }
 
 .form__button:hover {
-opacity: 7;
+opacity: 70%;
 transition: opacity 0.3s ease;
 
 
 }
+
+.form__input::placeholder {
+
+padding-left: 20px;
+}
+
+
+
+
 
 
 
