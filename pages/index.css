@@ -485,7 +485,7 @@ color: white;
 text-decoration: none;
 display: flex;
 align-items: center;
-transition: color 0.3 ease-in-out;
+transition: color 0.3s ease-in-out;
     
 }
 
