@@ -5,12 +5,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(/images/background_header.svg);
+    background-image: url(../images/background_header.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffffff;
     position: relative;
     background-position: center;
+    box-sizing: border-box;
     }
     .header__title {
         font-family: inter;

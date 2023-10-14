@@ -2,7 +2,7 @@
     background-image: url(../images/background_menu.svg); 
     background-color: #ffffff;
     background-size: contain;
-    background-position: center;
+    background-position: cover;
     padding: 100px 0 100px;   
     }
     
@@ -17,9 +17,10 @@
     }
     
     .menu__subtitle {
-    margin: 0px 325px 100px;
+    margin: 0 auto;
+    max-width: 780px;
     text-align: center;
-    font-family: noto serif;
+    font-family: "noto serif","times new roman",Times, serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;

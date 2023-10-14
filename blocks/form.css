@@ -11,15 +11,20 @@
     
     
     .form__input {
-    display: block;
-    width: 100%;
-    margin-top: 8px;
-    max-width: 385px;
-    height: 60px;
-    border: 1px solid #838383;
-    margin-bottom: 32px; 
-    padding: 0px;
-    border-radius: 4px   
+   font-family: "inter", ariel, sans-serif;
+   font-weight: normal;
+   margin-bottom: 32px;
+   border: 1px solid #838383;
+   box-sizing: border-box;
+   width: 100%;
+   border-radius: 4px;
+   padding: 19px 20px;
+    }
+
+    .form__input::placeholder {
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;    
     }
     
     .form__label {
@@ -37,7 +42,7 @@
     justify-content: center;
     gap: 12px;
     margin-bottom: 120px;
-    border-radius: 2px;
+   
     
     }
     
@@ -56,6 +61,7 @@
     cursor: pointer;
     border-radius: 4px;
     transition-duration: 0.4s;
+    border: none;
     }
     
     .form__button:hover {

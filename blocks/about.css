@@ -11,15 +11,17 @@
     }
 }
 .about {
-    padding: 119px;
+    padding: 100px 80px 173px 80px;
     overflow: hidden;
     position: relative;
-    background-color: #0a2750;    
+    background-color: #0a2750; 
+    display: flex;
+    justify-content: space-between;   
     }
     
     .about__title {
     color: #ffffff;
-    font-family: "inter";
+    font-family: "inter", ariel, helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
@@ -32,19 +34,22 @@
     
     .about__content {
     max-width: 660px;
-    position: relative;
-    left: 650px;
-    top: -85px;
+    margin-top: 19px;
+    
     }
     
     .about__paragraph {
-    font-family: "noto serif";
+    font-family: "noto serif", "Times New Roman", times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
-    margin-top: 0;    
+    margin-top: 0 0 20px;    
+    }
+
+    .about__paragraph:last-child {
+    margin: 0;    
     }
     
     .about__circle {
