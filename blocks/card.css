@@ -1,32 +1,31 @@
 .card {
-    width: 540px;
-    }
-    
-    .card__title {
-    margin: 0px 0px 32px;
-    }
-    
-    .card__list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    font-family: "noto serif", "Times New Roman", times, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    gap: 16px;
-    
-    }
-    
-    .card__list-item {
-    display: flex;    
-    }
-    
-    .card__list-divider {
-    border-bottom: 1px solid #000;
-    flex-grow: 1;
-    margin: 10px;    
-    }
+  width: 540px;
+}
+
+.card__title {
+  margin: 0px 0px 32px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-family: "noto serif", "Times New Roman", times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  gap: 16px;
+}
+
+.card__list-item {
+  display: flex;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #000;
+  flex-grow: 1;
+  margin: 10px;
+}
