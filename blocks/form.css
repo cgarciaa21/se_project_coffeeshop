@@ -23,24 +23,30 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-  padding-left: 20px;
+  font-family: "inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  
 }
 
 .form__label {
-  margin-bottom: 32px;
-  display: block;
-  font-family: "inter", arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+font-family: "inter", arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+row-gap: 8px;
 }
 
 .form__label_type_checkbox {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 0;
+flex-direction: row;
+align-items: center;
+column-gap: 12px;
+justify-content: center;
+
 }
 
 .form__button {
@@ -65,5 +71,10 @@
   opacity: 70%;
   transition: opacity 0.3s ease;
   
+}
+
+.form__checkbox {
+width: 20px;
+height: 20px;
 }
 

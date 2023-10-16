@@ -5,35 +5,42 @@
   background-position: center;
   padding: 100px 0 100px;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 100px 0 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .menu__title {
   text-align: center;
-  margin: 0 0 24px;
-  font-family: "inter", arial, sans-serif;
+  max-width: 780px;
+  margin: 0 auto 24px;
   font-style: normal;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
 
 .menu__subtitle {
-  margin: 0 auto;
-  max-width: 780px;
   text-align: center;
-  font-family: "noto serif", "times new roman", serif;
-  font-size: 20px;
-  font-weight: normal;
+  max-width: 780px;
+  margin: 0 auto 100px;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
   line-height: 30px;
 }
 
 .menu__cards {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
   gap: 100px;
   margin: 0;
   padding: 0;
-  list-style-type: none;
+
 }
