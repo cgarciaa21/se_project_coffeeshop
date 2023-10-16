@@ -27,7 +27,7 @@
 }
 
 .header__description {
-  font-family: noto serif, "times new roman", serif;
+  font-family: "noto serif", "times new roman", serif;
   font-style: normal;
   font-weight: normal;
   max-width: 683px;
@@ -37,7 +37,7 @@
 }
 
 .header__span-accent {
-  font-family: noto serif, "times new roman", serif;
+  font-family: "noto serif", "times new roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
