@@ -1,15 +1,15 @@
 .menu {
   background-image: url(../images/background_menu.svg);
   background-color: #ffffff;
-  background-size: contain;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
   padding: 100px 0 100px;
 }
 
 .menu__title {
   text-align: center;
   margin: 0 0 24px;
-  font-family: "inter", ariel, helvetica, sans-serif;
+  font-family: "inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -20,7 +20,7 @@
   margin: 0 auto;
   max-width: 780px;
   text-align: center;
-  font-family: "noto serif", "times new roman", Times, serif;
+  font-family: "noto serif", "times new roman", serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
