@@ -11,7 +11,7 @@
   margin: 0 0 80px;
   display: flex;
   justify-content: center;
-  font-family: inter;
+  font-family: "inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
